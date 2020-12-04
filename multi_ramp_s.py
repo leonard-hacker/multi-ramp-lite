@@ -106,7 +106,7 @@ def start_player():
 def handle_user_in(user_in):
     global s
     if user_in == '1':
-        list_connections()
+       pass
     elif user_in == '2':
         while True:
             disp_player()
