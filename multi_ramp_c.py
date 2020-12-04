@@ -5,7 +5,7 @@ os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
 import pygame
 
 s = socket.socket()
-host = '192.168.178.148'
+host = '192.168.178.159'
 port = 9999
 
 s.connect((host, port))
