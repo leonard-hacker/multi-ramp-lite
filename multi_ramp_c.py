@@ -44,7 +44,7 @@ while True:
             if len(sound_paths) == 0:
                 continue
 
-            if track_pointer = len(sound_paths) -1:
+            if track_pointer == len(sound_paths) -1:
                 track_pointer = 0
             else:
                 track_pointer += 1
@@ -55,7 +55,7 @@ while True:
             if len(sound_paths) == 0:
                 continue
 
-            if track_pointer = 0:
+            if track_pointer == 0:
                 track_pointer = len(sound_paths) -1
             else:
                 track_pointer -= 1
