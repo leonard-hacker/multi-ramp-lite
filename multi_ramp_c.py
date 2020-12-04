@@ -30,6 +30,10 @@ while True:
         elif data[:].decode() == 'pl':
             print("SHIT WORKS..PLAY")
 
+            if len(sound_paths) == 0:
+                continue
+
+
             pygame.mixer.init()
             pygame.mixer.music.load(sound_paths[track_pointer])
             pygame.mixer.music.play()
